@@ -1,24 +1,102 @@
-<!doctype HTML>
-<html>
-  <body>
-    <header>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
-    <title>Pragmatics Workshop</title>
-    </header>
-    <div class="container">
-      <h1 class="headline">Pragmatics at Portland State University</h1>
-      <div class="nav-container">
-        <ul class="nav">
-          <li>First</li>
-          <li>Second</li>
-          <li>Third</li>
-          <li>Last</li>
-        </ul>
-      </div>
-      <div id="intro-text">
-        <p>"Very curious, very curious," said Passepartout to himself, on returning to the steamer. "I see that it is by no means useless to travel, if a man wants to see something new." At six p.m. the Mongolia slowly moved out of the roadstead, and was soon once more on the Indian Ocean. She had a hundred and sixty-eight hours in which to reach Bombay, and the sea was favourable, the wind being in the north-west, and all sails aiding the engine. The steamer rolled but little, the ladies, in fresh toilets, reappeared on deck, and the singing and dancing were resumed. The trip was being accomplished most successfully, and Passepartout was enchanted with the congenial companion which chance had secured him in the person of the delightful Fix. On Sunday, October 20th, towards noon, they came in sight of the Indian coast: two hours later the pilot came on board. A range of hills lay against the sky in the horizon, and soon the rows of palms which adorn Bombay came distinctly into view. The steamer entered the road formed by the islands in the bay, and at half-past four she hauled up at the quays of Bombay.</p>
-      </div>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Simple Sidebar - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                        Navigation
+                    </a>
+                </li>
+                <li>
+                    <a href="#">Videos</a><!--make PPT slides and do screen casts, those will be the some of the videos-->
+                </li>
+                <li>
+                    <a href="#">Quizzes</a>
+                </li>
+                <li>
+                    <a href="#">Files</a><!---put the PPT slides in here-->
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1>Pragmatics</h1>
+                        <h3>Speech Acts, Politeness and more!</h3>
+                        <p>Welcome. Slides are found under 'files' and narrated slides are found under 'videos'. Test your knowledge with the interactive quizzes under 'bears'. Just kidding.</p>
+                        <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>.</p>
+                        <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
+                    </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-lg-8">
+                    <p>Are v xe oher Tzih varal Quiche vbi. Varal xchicatzibah vi xchicatiquiba vi oher tzih, vticaribal, vxenabal puch ronohel xban, pa tinamit quiche, ramac quiche vinac; arecut xchicacam vi vcutunizaxic, vcalahobizaxic, vtzihoxic puch euaxibal zaquiribal rumal tzacol bitol alom, qaholom quibi hunahpu vuch, hunahpu vtiu, zaqui nim ac tzÿz, tepeu, qucumatz, v qux cho, vqux palo, ah raxa lac, ah raxat zel chuqhaxic
+                    </p>
+                  </div>
+                  <div class="col-lg-4">
+                    <p>Are v xe oher Tzih varal Quiche vbi. Varal xchicatzibah vi xchicatiquiba vi oher tzih, vticaribal, vxenabal puch ronohel xban, pa tinamit quiche, ramac quiche vinac; arecut xchicacam vi vcutunizaxic, vcalahobizaxic, vtzihoxic puch euaxibal zaquiribal rumal tzacol bitol alom, qaholom quibi hunahpu vuch, hunahpu vtiu, zaqui nim ac tzÿz, tepeu, qucumatz, v qux cho, vqux palo, ah raxa lac, ah raxat zel chuqhaxic
+                    </p>
+                  </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
     </div>
-  </body>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+</body>
+
 </html>
