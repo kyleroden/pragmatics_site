@@ -1,0 +1,9 @@
+#sidebar-wrapper {
+  background-color: rgba(26, 43, 35, 1);
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(77, 127, 104, .8);
+}
