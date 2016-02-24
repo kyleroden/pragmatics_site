@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Quizzes</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../css/simple-sidebar.css" rel="stylesheet">
+    <link href="../css/styles.css" rel="stylesheet">
+</head>
+<body>
+
+  <div id="wrapper">
+
+      <!-- Sidebar -->
+      <div id="sidebar-wrapper">
+          <ul class="sidebar-nav">
+              <li class="sidebar-brand">
+                  <a href="../index.html">
+                      Home
+                  </a>
+              </li>
+              <li>
+                  <a href="#">Videos</a><!--make PPT slides and do screen casts, those will be the some of the videos-->
+              </li>
+              <li>
+                  <a href="#">Quizzes</a>
+              </li>
+              <li>
+                  <a href="#">Files</a><!---put the PPT slides in here-->
+              </li>
+              <li>
+                  <a href="#">About</a>
+              </li>
+          </ul>
+      </div>
+      <!-- /#sidebar-wrapper -->
+
+      <div id="page-content-wrapper">
+          <div class="container-fluid">
+              <div class="row">
+                  <div class="col-lg-12">
+                    <div id="quiz" class="centered grid__col--8">
+                        <h1>Practice Quiz</h1>
+
+                        <h2 id="question" class="headline-secondary--grouped"></h2>
+                        <h3 id="score"></h3>
+
+                        <p id="choice0" class="choice"></p>
+                        <button id="guess0" class="btn--default">Select Answer</button>
+
+                        <p id="choice1" class="choice"></p>
+                        <button id="guess1" class="btn--default">Select Answer</button>
+
+                        <p id="progress">Question x of y</p>
+
+                    </div>
+                </div>
+              </div>
+          </div>
+      </div>
+    </div>
+</div><!--wrapper-->
+
+<!-- jQuery -->
+<script src="../js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="../js/bootstrap.min.js"></script>
+
+<script src="quiz.js"></script>
+<script src="question.js"></script>
+<script src="quiz_ui.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
