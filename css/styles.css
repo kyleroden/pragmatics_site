@@ -7,3 +7,17 @@
     color: #fff;
     background: rgba(77, 127, 104, .8);
 }
+
+#page-content-wrapper p {
+	line-height: 1.5;
+}
+  /*Quiz styles*/
+.choice {
+  font-size: 1.5em;
+  margin-top: 3vh;
+}
+
+#progress {
+  margin-top: 4vh;
+}
+
