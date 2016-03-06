@@ -30,3 +30,16 @@ p {
   background-color: cadet-blue;
   color: white;
 }
+
+/* Quizzes main page */
+#quiz_nav li {
+  text-decoration: none;
+}
+
+#quiz_nav li a {
+  font-size: 1.2em;
+
+}
+#quiz_1 {
+  height: 100%;
+}
