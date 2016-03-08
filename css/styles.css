@@ -38,8 +38,17 @@ p {
 
 #quiz_nav li a {
   font-size: 1.2em;
-
 }
 #quiz_1 {
   height: 100%;
+}
+.quiz_nav_item {
+  max-width: 15em;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+.quiz_nav_item:hover {
+  color: white;
+  background-color: grey;
+
 }
