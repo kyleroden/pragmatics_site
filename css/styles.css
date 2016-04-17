@@ -63,6 +63,8 @@ p {
 }
 .module_panel {
   max-width: 20em;
+  display: inline-block;
+  margin-right: 2em;
 }
 /* styles from the style.css Mother Jones quiz */
 
