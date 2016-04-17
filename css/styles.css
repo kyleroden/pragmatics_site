@@ -54,6 +54,9 @@ p {
 .module_button {
   margin-right: 1em;
 }
+.module_panel {
+  max-width: 20em;
+}
 /* styles from the style.css Mother Jones quiz */
 
 
