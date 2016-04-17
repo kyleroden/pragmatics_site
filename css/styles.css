@@ -51,7 +51,9 @@ p {
   background-color: grey;
 
 }
-
+.module_button {
+  margin-right: 1em;
+}
 /* styles from the style.css Mother Jones quiz */
 
 
