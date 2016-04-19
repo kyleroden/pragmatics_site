@@ -66,6 +66,9 @@ p {
   display: inline-block;
   margin-right: 2em;
 }
+#module_panel_heading {
+  background-color: aliceblue;
+}
 /* styles from the style.css Mother Jones quiz */
 
 
