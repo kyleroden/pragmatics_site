@@ -58,18 +58,28 @@ p {
   background-color: grey;
 
 }
+/* unit panels with title, video and quiz */
+.panel-heading {
+  text-align: center;
+}
+.panel-body {
+  height: 5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 22vw;
+}
 .module_button {
-  margin-right: 1em;
+  margin: 0 5px;
 }
 .module_panel {
-  max-width: 20em;
   display: inline-block;
-  margin-right: 2em;
+  margin-right: 1em;
 }
-#module_panel_neg {
+.panel-default >.module_panel_neg {
   background-color: #FFF5F0;
 }
-#module_panel_pos {
+.panel-default >.module_panel_pos {
   background-color: #F0FFFE;
 }
 /* styles from the style.css Mother Jones quiz */
@@ -82,7 +92,7 @@ p {
 .possible_answer:hover {
 	background: rgba(254, 231, 88, 1);
 	cursor: pointer;
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .correct-answer, .wrong-answer {
