@@ -82,6 +82,9 @@ p {
 .panel-default >.module_panel_pos {
   background-color: #F0FFFE;
 }
+.panel-default >.module_panel_overview {
+  background-color: #F4FFEF;
+}
 /* styles from the style.css Mother Jones quiz */
 
 
