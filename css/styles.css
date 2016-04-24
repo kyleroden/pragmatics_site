@@ -15,11 +15,15 @@ p {
 #page-content-wrapper p {
 	line-height: 1.5;
 }
+/*media queries for all screens bigger than mobile*/
 
 @media screen and (min-width : 768px) {
     #page-content-wrapper {
     max-width: 90%;
     margin: auto;
+  }
+  .module_panel {
+    display: inline-block;
   }
 }
   /*Quiz styles*/
@@ -73,8 +77,11 @@ p {
   margin: 0 5px;
 }
 .module_panel {
-  display: inline-block;
   margin-right: 1em;
+  min-width: 19em;
+}
+.module_panel:nth-of-type(3) {
+  margin-right: 0em;
 }
 .panel-default >.module_panel_neg {
   background-color: #FFF5F0;
@@ -85,6 +92,10 @@ p {
 .panel-default >.module_panel_overview {
   background-color: #F4FFEF;
 }
+/*.panel-default >.module_panel_analysis {
+  background-color: #FFF5F0;
+}
+*/
 /* styles from the style.css Mother Jones quiz */
 
 
