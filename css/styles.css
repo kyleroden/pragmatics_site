@@ -73,9 +73,6 @@ p {
   margin-right: 1em;
   min-width: 19em;
 }
-.module_panel:nth-of-type(3) {
-  margin-right: 0em;
-}
 .panel-default >.module_panel_neg {
   background-color: #FFF5F0;
 }
