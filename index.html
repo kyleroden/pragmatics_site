@@ -30,7 +30,7 @@
   <div id="wrapper">
     <ul class="nav nav-tabs">
       <li role="presentation" class="active"><a href="index.html">Home</a></li>
-      <li role="presentation"><a href="table.html">Table of Contents</a></li>
+      <li role="presentation"><a href="table.html">Files</a></li>
       <li role="presentation"><a href="about.html">About</a></li>
     </ul>
     <!-- Page Content -->
@@ -48,9 +48,13 @@
             <!--add jquery function to replace this div with the videos and quizzes from each module -->
             <div class="row">
               <div class="col-lg-12">
-                <p>This site consists of instructional materials for Brown and Levinson's Politeness Theory. The materials are designed to help linguistic pragmatics students perform analyses of texts within this particular theoretical framework. The theory
-                  is divided into modules which each have a mini video lecture and an interactive quiz over the material.</p>
+                <p>This site consists of instructional materials for Brown and Levinson's Politeness Theory. The materials are designed to help linguistic pragmatics students understand major concepts of this theory and perform analyses of texts within this particular theoretical framework. The theory
+                  is divided into modules. Each module contains a short video lecture and an interactive quiz. The site was designed by Kyle Roden as part of a culminating experience project for a Masters degree in Teaching English to Speakers of Other Languages.</p>
                 <!--overview panel-->
+              </div>
+            </div>
+            <div class="row" id="modules_container">
+              <div class="col-lg-12">
                 <div class="panel panel-default module_panel">
                   <div class="panel-heading module_panel_overview">
                     <div class="panel-heading">
@@ -187,7 +191,7 @@
                           </div>
                         </div>
                       </div>
-                      <!--comment this out unless Keith thinks this module should have a quiz 
+                      <!--comment this out unless Keith thinks this module should have a quiz
                       <button type="button" class="btn btn-default module_button" data-toggle="modal" data-target="#analysis_quiz">Quiz</button>
                       <div class="modal fade" id="analysis_quiz" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
                         <div class="modal-dialog modal-lg">

@@ -8,12 +8,16 @@ p {
 #page-content-wrapper p {
 	line-height: 1.5;
 }
+
 /*media queries for all screens bigger than mobile*/
 
 @media screen and (min-width : 768px) {
     #page-content-wrapper {
     max-width: 90%;
     margin: auto;
+  }
+  #modules_container {
+    max-width: 85%;
   }
   .module_panel {
     display: inline-block;
