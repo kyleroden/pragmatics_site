@@ -8,6 +8,16 @@ p {
 #page-content-wrapper p {
 	line-height: 1.5;
 }
+.panel_num {
+  color: #D8D8D8;
+  text-shadow: 1px 1px 1px #000;
+  position: absolute;
+  top: -0.7em;
+  left: .1em;
+}
+.file_ico {
+  padding: 0 3px;
+}
 
 /*media queries for all screens bigger than mobile*/
 
@@ -62,6 +72,7 @@ p {
 /* unit panels with title, video and quiz */
 .panel-heading {
   text-align: center;
+  position: relative;
 }
 .panel-body {
   height: 5em;
