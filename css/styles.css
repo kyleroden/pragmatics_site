@@ -26,7 +26,20 @@ button {
 .file_ico {
   padding: 0 3px;
 }
-
+.video_wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 35px;
+  height: 0;
+  overflow: hidden;
+}
+.video_wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 /*media queries for all screens bigger than mobile*/
 
 @media screen and (min-width : 768px) {
