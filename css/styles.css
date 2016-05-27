@@ -2,11 +2,11 @@ p {
   font-size: 1.12em;
 }
 
-.modal-content {
-  min-width: 950px;
-}
 #page-content-wrapper p {
 	line-height: 1.5;
+}
+.module_panel {
+  max-width: 100%;
 }
 .panel_num {
   color: #D8D8D8;
@@ -31,6 +31,9 @@ p {
   }
   .module_panel {
     display: inline-block;
+  }
+  .modal-video {
+    min-width: 1000px;
   }
 }
   /*Quiz styles*/
