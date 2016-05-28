@@ -91,7 +91,6 @@ button {
 .quiz_nav_item:hover {
   color: white;
   background-color: grey;
-
 }
 /* unit panels with title, video and quiz */
 .panel-heading {
@@ -121,13 +120,7 @@ button {
 .panel-default >.module_panel_overview {
   background-color: #F4FFEF;
 }
-/*.panel-default >.module_panel_analysis {
-  background-color: #FFF5F0;
-}
-*/
 /* styles from the style.css Mother Jones quiz */
-
-
 .possible_answer  {
     padding: .75em;
 }
